@@ -23,6 +23,7 @@ Born from 6 months of real-world use managing a complex TypeScript microservices
 - ✅ **Specialized agents** for complex tasks
 - ✅ **Dev docs system** that survives context resets
 - ✅ **Comprehensive examples** using generic blog domain
+- ✅ **Data science example** showing automation for data projects
 
 **Time investment to build:** 6 months of iteration
 **Time to integrate into your project:** 15-30 minutes
@@ -69,6 +70,16 @@ Browse the [skills catalog](.claude/skills/) and copy what you need.
 - And more...
 
 **👉 [Agents Guide: .claude/agents/README.md](.claude/agents/README.md)**
+
+### 📊 I want to see data science automation
+
+**Example project** showing automation for data engineering and ML:
+- Data science best practices skill
+- Data quality checker agent  
+- Pipeline debugger agent
+- Example ETL pipelines and validation
+
+**👉 [Data Project Guide: data_project/DATA_PROJECT_GUIDE.md](data_project/DATA_PROJECT_GUIDE.md)**
 
 ---
 
@@ -142,6 +153,18 @@ skill-name/
 dev/
 └── active/                 # Dev docs pattern examples
     └── public-infrastructure-repo/
+
+data_project/               # Data science automation example
+├── .claude/
+│   ├── skills/
+│   │   └── data-science-guidelines/  # Data science best practices
+│   └── agents/
+│       ├── data-quality-checker.md   # Data validation agent
+│       └── pipeline-debugger.md      # Pipeline debugging agent
+├── src/
+│   ├── pipelines/          # Example ETL pipelines
+│   └── validation/         # Data validation examples
+└── DATA_PROJECT_GUIDE.md   # Complete guide for data projects
 ```
 
 ---
@@ -363,6 +386,7 @@ MIT License - Use freely in your projects, commercial or personal.
 - **[Implementation Guide](IMPLEMENTATION_GUIDE.md)** - Implement in YOUR repository (step-by-step)
 - **[Automation Examples](AUTOMATION_EXAMPLES.md)** - Mermaid diagrams showing automation flow
 - **[Claude Integration Guide](CLAUDE_INTEGRATION_GUIDE.md)** - For AI-assisted setup
+- **[Data Project Guide](data_project/DATA_PROJECT_GUIDE.md)** - Automation for data science/analytics workflows
 
 **📂 Component Guides:**
 - 🎨 [Skills Documentation](.claude/skills/README.md)

@@ -5,6 +5,17 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.pytest_cache/
+
 # Environment variables
 .env
 .env.local
@@ -49,3 +60,9 @@ temp/
 # Prisma
 .env
 prisma/.env
+
+# Data (don't commit data files)
+data_project/data/raw/*.csv
+data_project/data/processed/*.parquet
+data_project/data/interim/*
+!data_project/data/.gitkeep
