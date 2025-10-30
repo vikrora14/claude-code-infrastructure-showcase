@@ -9,6 +9,8 @@ Born from 6 months of real-world use managing a complex TypeScript microservices
 > **📖 Documentation Guides:**
 > - **[Quick Start Visual Guide](QUICK_START_VISUAL.md)** - One-page visual overview with diagrams (perfect for visual learners!)
 > - **[Comprehensive Guide](COMPREHENSIVE_GUIDE.md)** - Complete understanding with step-by-step instructions (1000+ lines, covers everything!)
+> - **[Implementation Guide](IMPLEMENTATION_GUIDE.md)** - Step-by-step guide to implement in YOUR repository
+> - **[Automation Examples](AUTOMATION_EXAMPLES.md)** - Mermaid diagrams showing how automation works
 > - **[Claude Integration Guide](CLAUDE_INTEGRATION_GUIDE.md)** - For AI-assisted setup (designed for Claude to read)
 
 ---
@@ -358,6 +360,8 @@ MIT License - Use freely in your projects, commercial or personal.
 **📖 Documentation:**
 - **[Quick Start Visual](QUICK_START_VISUAL.md)** - One-page visual guide (perfect for visual learners!)
 - **[Comprehensive Guide](COMPREHENSIVE_GUIDE.md)** - Complete understanding (1000+ lines, everything explained!)
+- **[Implementation Guide](IMPLEMENTATION_GUIDE.md)** - Implement in YOUR repository (step-by-step)
+- **[Automation Examples](AUTOMATION_EXAMPLES.md)** - Mermaid diagrams showing automation flow
 - **[Claude Integration Guide](CLAUDE_INTEGRATION_GUIDE.md)** - For AI-assisted setup
 
 **📂 Component Guides:**
@@ -366,8 +370,9 @@ MIT License - Use freely in your projects, commercial or personal.
 - 🤖 [Agents Guide](.claude/agents/README.md)
 - 📝 [Dev Docs Pattern](dev/README.md)
 
-**⚡ Quick Start Path:**
-1. Visual learner? → Read [Quick Start Visual](QUICK_START_VISUAL.md)
-2. Want deep understanding? → Read [Comprehensive Guide](COMPREHENSIVE_GUIDE.md)
-3. Ready to integrate? → Copy the two essential hooks + one skill (15 min)
-4. See the magic! → Edit a file and watch skills auto-activate
+**⚡ Quick Start Paths:**
+1. **Visual learner?** → Read [Quick Start Visual](QUICK_START_VISUAL.md)
+2. **Want deep understanding?** → Read [Comprehensive Guide](COMPREHENSIVE_GUIDE.md)
+3. **Ready to implement in your repo?** → Follow [Implementation Guide](IMPLEMENTATION_GUIDE.md)
+4. **See automation examples?** → View [Automation Examples](AUTOMATION_EXAMPLES.md) with mermaid diagrams
+5. **Just want to try?** → Copy the two essential hooks + one skill (15 min)
