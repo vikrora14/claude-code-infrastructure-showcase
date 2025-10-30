@@ -1,0 +1,53 @@
+{
+  "data-science-guidelines": {
+    "type": "domain",
+    "enforcement": "suggest",
+    "priority": "high",
+    "promptTriggers": {
+      "keywords": [
+        "data pipeline",
+        "ETL",
+        "ELT",
+        "data processing",
+        "machine learning",
+        "model",
+        "training",
+        "data validation",
+        "data quality",
+        "feature engineering",
+        "data transformation",
+        "pandas",
+        "numpy",
+        "scikit-learn",
+        "dataset"
+      ],
+      "intentPatterns": [
+        "creat(e|ing) .* (pipeline|ETL|data process)",
+        "build .* (model|feature|transformation)",
+        "validat(e|ing) .* data",
+        "process .* (data|dataset)",
+        "train .* model",
+        "engineer .* feature"
+      ]
+    },
+    "fileTriggers": {
+      "pathPatterns": [
+        "data_project/**/*.py",
+        "data_project/src/**/*.py",
+        "data_project/notebooks/**/*.ipynb",
+        "data_project/scripts/**/*.py",
+        "data_project/pipelines/**/*.py"
+      ],
+      "contentPatterns": [
+        "import pandas",
+        "import numpy",
+        "from sklearn",
+        "pd\\.DataFrame",
+        "class.*Pipeline",
+        "def.*transform",
+        "def.*extract",
+        "def.*load"
+      ]
+    }
+  }
+}
