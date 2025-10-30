@@ -6,7 +6,10 @@ Born from 6 months of real-world use managing a complex TypeScript microservices
 
 > **This is NOT a working application** - it's a reference library. Copy what you need into your own projects.
 
-> **📖 NEW: [Complete Understanding Guide](COMPREHENSIVE_GUIDE.md)** - A comprehensive, beginner-friendly guide explaining what this is, why it matters, how it works, and step-by-step instructions to use it. **Start here if you want complete understanding!**
+> **📖 Documentation Guides:**
+> - **[Quick Start Visual Guide](QUICK_START_VISUAL.md)** - One-page visual overview with diagrams (perfect for visual learners!)
+> - **[Comprehensive Guide](COMPREHENSIVE_GUIDE.md)** - Complete understanding with step-by-step instructions (1000+ lines, covers everything!)
+> - **[Claude Integration Guide](CLAUDE_INTEGRATION_GUIDE.md)** - For AI-assisted setup (designed for Claude to read)
 
 ---
 
@@ -352,12 +355,19 @@ MIT License - Use freely in your projects, commercial or personal.
 
 ## Quick Links
 
-- 📖 **[Comprehensive Guide](COMPREHENSIVE_GUIDE.md)** - **START HERE for complete understanding!**
-- 🤖 [Claude Integration Guide](CLAUDE_INTEGRATION_GUIDE.md) - For AI-assisted setup
+**📖 Documentation:**
+- **[Quick Start Visual](QUICK_START_VISUAL.md)** - One-page visual guide (perfect for visual learners!)
+- **[Comprehensive Guide](COMPREHENSIVE_GUIDE.md)** - Complete understanding (1000+ lines, everything explained!)
+- **[Claude Integration Guide](CLAUDE_INTEGRATION_GUIDE.md)** - For AI-assisted setup
+
+**📂 Component Guides:**
 - 🎨 [Skills Documentation](.claude/skills/README.md)
 - 🪝 [Hooks Setup](.claude/hooks/README.md)
 - 🤖 [Agents Guide](.claude/agents/README.md)
 - 📝 [Dev Docs Pattern](dev/README.md)
 
-**For quick start:** Copy the two essential hooks, add one skill, and see the auto-activation magic happen.
-**For deep understanding:** Read the [Comprehensive Guide](COMPREHENSIVE_GUIDE.md) first.
+**⚡ Quick Start Path:**
+1. Visual learner? → Read [Quick Start Visual](QUICK_START_VISUAL.md)
+2. Want deep understanding? → Read [Comprehensive Guide](COMPREHENSIVE_GUIDE.md)
+3. Ready to integrate? → Copy the two essential hooks + one skill (15 min)
+4. See the magic! → Edit a file and watch skills auto-activate
