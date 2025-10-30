@@ -1,0 +1,25 @@
+# Pipeline Configuration
+
+# Data paths
+input_path: data/raw/users.csv
+output_path: data/processed/users.parquet
+
+# Processing parameters
+batch_size: 1000
+num_workers: 4
+
+# Logging configuration
+log_level: INFO
+log_dir: logs
+
+# Validation settings
+validate_input: true
+validate_output: true
+
+# Feature engineering
+create_age_groups: true
+extract_email_domain: true
+
+# Data quality thresholds
+max_null_percentage: 0.1  # 10%
+min_completeness: 0.95     # 95%

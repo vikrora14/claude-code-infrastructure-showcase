@@ -6,21 +6,21 @@ Demonstrates schema validation, data quality checks, and validation reports.
 
 import pandas as pd
 import pandera as pa
-from pandera import Column, DataFrameSchema, Check
+from pandera.typing import DataFrame, Series
 from typing import Dict, List
 from datetime import datetime
 import logging
 
 
-# Define schema for user data
-class UserDataSchema(pa.SchemaModel):
+# Define schema for user data using decorators (compatible with newer pandera)
+class UserDataSchema(pa.DataFrameModel):
     """Schema for user data validation."""
     
-    user_id: int = pa.Field(gt=0, unique=True, description="Unique user identifier")
-    email: str = pa.Field(str_matches=r'^[\w\.-]+@[\w\.-]+\.\w+$', description="Valid email address")
-    age: int = pa.Field(ge=0, le=120, description="User age between 0 and 120")
-    created_at: pd.Timestamp = pa.Field(description="Account creation timestamp")
-    status: str = pa.Field(isin=['active', 'inactive', 'pending'], description="Account status")
+    user_id: Series[int] = pa.Field(gt=0, unique=True, description="Unique user identifier")
+    email: Series[str] = pa.Field(str_matches=r'^[\w\.-]+@[\w\.-]+\.\w+$', description="Valid email address")
+    age: Series[int] = pa.Field(ge=0, le=120, description="User age between 0 and 120")
+    created_at: Series[pd.Timestamp] = pa.Field(description="Account creation timestamp")
+    status: Series[str] = pa.Field(isin=['active', 'inactive', 'pending'], description="Account status")
     
     class Config:
         """Schema configuration."""
