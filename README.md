@@ -6,6 +6,8 @@ Born from 6 months of real-world use managing a complex TypeScript microservices
 
 > **This is NOT a working application** - it's a reference library. Copy what you need into your own projects.
 
+> **📖 NEW: [Complete Understanding Guide](COMPREHENSIVE_GUIDE.md)** - A comprehensive, beginner-friendly guide explaining what this is, why it matters, how it works, and step-by-step instructions to use it. **Start here if you want complete understanding!**
+
 ---
 
 ## What's Inside
@@ -350,10 +352,12 @@ MIT License - Use freely in your projects, commercial or personal.
 
 ## Quick Links
 
-- 📖 [Claude Integration Guide](CLAUDE_INTEGRATION_GUIDE.md) - For AI-assisted setup
+- 📖 **[Comprehensive Guide](COMPREHENSIVE_GUIDE.md)** - **START HERE for complete understanding!**
+- 🤖 [Claude Integration Guide](CLAUDE_INTEGRATION_GUIDE.md) - For AI-assisted setup
 - 🎨 [Skills Documentation](.claude/skills/README.md)
 - 🪝 [Hooks Setup](.claude/hooks/README.md)
 - 🤖 [Agents Guide](.claude/agents/README.md)
 - 📝 [Dev Docs Pattern](dev/README.md)
 
-**Start here:** Copy the two essential hooks, add one skill, and see the auto-activation magic happen.
+**For quick start:** Copy the two essential hooks, add one skill, and see the auto-activation magic happen.
+**For deep understanding:** Read the [Comprehensive Guide](COMPREHENSIVE_GUIDE.md) first.
